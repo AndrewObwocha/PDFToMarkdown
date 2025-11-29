@@ -11,8 +11,8 @@ if not api_key:
 parser = LlamaParse(
     api_key=api_key, 
     result_type="markdown", 
+    parse_mode="parse_page_with_llm", 
     verbose=True,
-    language="en",
 )
 
 pdf_path = "./your_document.pdf"  # <--- REPLACE THIS WITH YOUR FILE
