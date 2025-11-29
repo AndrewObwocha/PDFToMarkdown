@@ -6,3 +6,6 @@ venv
 
 # Environment variables
 .env
+
+# Folders
+projects
